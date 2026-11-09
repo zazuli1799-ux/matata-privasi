@@ -14,49 +14,66 @@ small{color:#4D6157}
 <body>
 <div class="kartu">
 <h1>Kebijakan Privasi MaTaTa Apps</h1>
-<small>Berlaku sejak 4 November 2026. Privacy policy in English is at the bottom of this page.</small>
+<small>Berlaku sejak 9 November 2026. Privacy policy in English is at the bottom of this page.</small>
 
 <h2>Ringkasnya</h2>
-<p>MaTaTa Apps tidak meminta akun, tidak mengumpulkan data pribadi, tidak memakai iklan, dan tidak mengirim data apa pun ke server kami. Semua data yang kamu isi di app tersimpan hanya di HP-mu.</p>
+<p>MaTaTa Apps bisa dipakai penuh tanpa akun. Semua data yang kamu isi hanya tersimpan di HP-mu, tanpa iklan dan tanpa pelacak. <b>Akun bersifat opsional</b> dan hanya untuk anggota komunitas MaTaTa yang diundang komandannya, supaya Jihad Pribadi bisa dilaporkan dan dibina. Bila kamu membuat akun, sebagian data dikirim ke server dan bisa dilihat atasanmu di komunitas (dijelaskan di bawah).</p>
 
-<h2>Data yang tersimpan di HP-mu</h2>
+<h2>Tanpa akun: data hanya di HP-mu</h2>
 <ul>
 <li>Posisi bacaan buku, streak, dan centang harian (baca buku, tadabbur, dzikir pagi dan sore).</li>
-<li>Ayat terakhir yang dibaca di Tilawah dan pengaturan tampilan (ukuran huruf, posisi teks, mode pilihan ayat).</li>
-<li>Catatan program pribadi (tugas harian dan pekanan, nama untuk laporan, nominal kafaroh).</li>
-<li>Status bahwa kode komunitas sudah dimasukkan.</li>
+<li>Ayat terakhir yang dibaca di Tilawah dan pengaturan tampilan.</li>
+<li>Catatan program pribadi (Mutaba'ah), nama panggilan, dan status kode komunitas.</li>
 </ul>
 <p>Data ini tidak keluar dari perangkat. Kalau app di-uninstall, data ikut terhapus.</p>
+<p><b>Murrotal (audio):</b> bila kamu menekan Dengarkan di Tilawah, audio ayat diunduh dari server Islamic Network (cdn.islamic.network) dan disimpan di HP-mu. Server itu dapat melihat alamat IP seperti situs web biasa, tetapi tidak ada data pribadi atau akunmu yang dikirim. Unduhan bisa dihapus dari Akun dan pengaturan.</p>
+
+<h2 id="akun">Dengan akun komunitas</h2>
+<p>Akun dibuat dengan email dan kata sandi lewat Firebase (layanan Google). Data berikut disimpan di server Firebase (Cloud Firestore, wilayah Jakarta):</p>
+<ul>
+<li>Email dan nama (sesuai undangan), peran (anggota, komandan, panglima, Ust Syauqi, atau admin), dan susunan grup (siapa atasanmu).</li>
+<li>Standar yang kamu pilih (1 sampai 4).</li>
+<li>Centang Jihad Pribadi harian dan pekanan, ringkasan laporan Jumat (jumlah butir selesai dan terlewat, perkiraan kafaroh), dan waktu laporan dikirim.</li>
+</ul>
+<p><b>Siapa yang bisa melihat:</b> komandanmu, atasan di atasnya (panglima dan Ust Syauqi), serta admin atau pengembang aplikasi. Anggota lain tidak bisa melihat datamu. Data ibadah dalam Jihad Pribadi memang dibagikan kepada pembina komunitas; itu tujuan akun ini.</p>
+<p><b>Yang tidak dikirim:</b> program pribadi di tab Mutaba'ah, posisi bacaan, lokasi, dan isi bacaanmu tetap hanya di HP.</p>
+<p><b>Tujuan:</b> pelaporan dan pembinaan Jihad Pribadi serta keamanan akun (verifikasi email dan atur ulang kata sandi). Data tidak dijual, tidak dipakai untuk iklan, dan tidak dibagikan ke pihak lain di luar Google Firebase sebagai penyedia server.</p>
+<p><b>Penyimpanan:</b> selama akunmu aktif, sampai kamu menghapusnya.</p>
+
+<h2 id="hapus-akun">Menghapus akun dan data</h2>
+<p>Di aplikasi: Beranda, Akun dan pengaturan, Akun komunitas, lalu tombol <b>Hapus akun dan data</b> (masukkan kata sandi). Akun, profil, centang, dan laporanmu di server dihapus permanen.</p>
+<p>Tidak bisa membuka aplikasi? Kirim email dari alamat akunmu ke <a href="mailto:zazuli1799@gmail.com">zazuli1799@gmail.com</a> dengan judul "Hapus akun MaTaTa"; kami hapus dalam 7 hari.</p>
 
 <h2>Yang hanya terjadi atas perintahmu</h2>
 <ul>
-<li><b>Bagikan ke WhatsApp atau aplikasi lain:</b> teks ayat, laporan, atau koreksi dikirim lewat aplikasi pilihanmu hanya saat kamu menekan tombol bagikan atau kirim. Kami tidak melihat isinya.</li>
+<li><b>Bagikan ke WhatsApp atau aplikasi lain:</b> teks dikirim lewat aplikasi pilihanmu hanya saat kamu menekan tombol bagikan atau kirim.</li>
 <li><b>Dengarkan (suara):</b> memakai mesin teks-ke-suara bawaan HP-mu.</li>
 </ul>
 
 <h2>Izin yang diminta</h2>
 <ul>
-<li><b>Notifikasi:</b> untuk menampilkan ayat, pengingat membaca, waktu sholat, dan adzan. Bisa dimatikan kapan saja di pengaturan app atau HP.</li>
-<li><b>Lokasi perkiraan (opsional):</b> hanya dipakai bila kamu mengetuk "Pakai GPS" di menu Waktu sholat, untuk menghitung jadwal sholat di HP. Koordinat disimpan di HP saja dan tidak dikirim ke server mana pun. Kamu juga bisa memilih kota secara manual tanpa izin lokasi.</li>
-<li><b>Alarm tepat waktu dan mulai otomatis saat HP menyala:</b> supaya pengingat sholat muncul tepat waktu dan tetap terjadwal setelah HP dihidupkan ulang.</li>
+<li><b>Internet:</b> untuk fitur akun komunitas (masuk, kirim centang dan laporan) dan untuk mengunduh audio murrotal.</li>
+<li><b>Notifikasi:</b> ayat, pengingat membaca, waktu sholat, dan adzan. Bisa dimatikan kapan saja.</li>
+<li><b>Lokasi perkiraan (opsional):</b> hanya bila kamu mengetuk "Pakai GPS" di Waktu sholat; dihitung di HP dan tidak dikirim ke server.</li>
+<li><b>Alarm tepat waktu dan mulai otomatis saat HP menyala:</b> supaya pengingat sholat tetap terjadwal.</li>
 <li><b>Wallpaper:</b> app berjalan sebagai live wallpaper untuk menampilkan ayat di layar kunci.</li>
 </ul>
 
 <h2>Pihak ketiga</h2>
-<p>App ini tidak memakai SDK iklan, analitik, atau pelacak. Teks Al-Qur'an dan terjemahan Indonesia (Kementerian Agama RI) tersimpan di dalam app dan bisa dibuka tanpa internet.</p>
+<p>Tanpa SDK iklan, analitik, atau pelacak. Layanan eksternal hanya dua: Google Firebase (Authentication dan Firestore) untuk fitur akun, dan Islamic Network (cdn.islamic.network) untuk audio murrotal. Audio murrotal Minshawi Murattal hak ciptanya milik qari.</p>
 
 <h2>Anak-anak</h2>
-<p>App ini ditujukan untuk umum dan tidak mengumpulkan data dari siapa pun, termasuk anak-anak.</p>
+<p>Akun komunitas ditujukan untuk orang dewasa yang diundang komandan komunitas MaTaTa. App tanpa akun tidak mengumpulkan data dari siapa pun.</p>
 
 <h2>Perubahan kebijakan</h2>
-<p>Jika kebijakan ini berubah, versi terbaru akan diumumkan di halaman ini beserta tanggal berlakunya.</p>
+<p>Jika kebijakan ini berubah, versi terbaru diumumkan di halaman ini beserta tanggal berlakunya.</p>
 
 <h2>Kontak</h2>
 <p>Pertanyaan tentang privasi: <a href="mailto:zazuli1799@gmail.com">zazuli1799@gmail.com</a></p>
 
 <hr>
 <h1>Privacy Policy (English)</h1>
-<p>MaTaTa Apps does not require an account, does not collect personal data, contains no ads or analytics, and sends no data to any server. Everything you enter (reading progress, streaks, checklists, settings) is stored only on your device and is removed when you uninstall the app. Content is shared (for example via WhatsApp) only when you tap a share button, through the app you choose. Text-to-speech uses your device's built-in engine. Permissions: notifications (to show verses, prayer-time reminders and adhan), optional approximate location (only if you tap "Use GPS" in Prayer times; used on-device to compute prayer times, never sent anywhere), exact alarms and boot completed (to keep reminders on time) and live wallpaper (to show verses on the lock screen). Contact: zazuli1799@gmail.com.</p>
+<p>MaTaTa Apps works fully without an account; everything you enter stays on your device, with no ads or trackers. An <b>optional community account</b> (email and password via Google Firebase) exists only for members invited by their commander, so that "Jihad Pribadi" worship checklists can be reported and mentored. If you create an account, the following is stored on Firebase servers (Cloud Firestore, Jakarta): your email, name, role and group hierarchy, chosen standard (1-4), daily and weekly checklist entries, the weekly report summary and its submission time. These can be seen by your commander, their superiors in the community (panglima, Ust Syauqi) and the app administrator/developer, but not by other members. Personal programs in the Mutaba'ah tab, reading position and location never leave your device. Data is used only for reporting, mentoring and account security; it is not sold, used for ads, or shared beyond Firebase as hosting provider. It is kept until you delete your account. To delete: Account and settings, Community account, "Hapus akun dan data" (enter your password), or email zazuli1799@gmail.com from your account address and we will delete it within 7 days. The Internet permission is used for account features and to download murrotal (recitation) audio from Islamic Network (cdn.islamic.network); that server can see your IP address like any website, but no personal data or account is sent. Downloads can be deleted in Account and settings. Other permissions: notifications, optional approximate location (on-device only), exact alarms, boot completed, and live wallpaper. Accounts are for invited adults. Contact: zazuli1799@gmail.com.</p>
 </div>
 </body>
 </html>
